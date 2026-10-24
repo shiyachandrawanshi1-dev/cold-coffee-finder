@@ -6,8 +6,8 @@ from helper.utils import calculate_distance,is_open_spot
 
 st.set_page_config(layout='wide')
 
-df = pd.read_csv("ColdCoffeeFinder/ColdCoffeeFinder/datasets/dubai_cold_coffee_spots_clean.csv")
-df_areas = pd.read_csv("ColdCoffeeFinder/ColdCoffeeFinder/datasets/dubai_areas_with_labels.csv")
+df = pd.read_csv("ColdCoffeeFinder/datasets/dubai_cold_coffee_spots_clean.csv")
+df_areas = pd.read_csv("ColdCoffeeFinder/datasets/dubai_areas_with_labels.csv")
 
 st.title("☕ Dubai Cold Coffee Finder")
 st.write("Find the nearest cold coffee spots around you in Dubai.")
